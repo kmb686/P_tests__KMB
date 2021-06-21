@@ -1,0 +1,136 @@
+body{
+    background: #ddd;
+    font-size: 16px;
+    font-family: Arial,  sans-serif;
+}
+
+.stage{
+    margin: 0 auto;
+    width: 900px;
+    height: 450px;
+    overflow: hidden;
+}
+
+#cards{
+    width: 2700px;
+    height: 450px;
+    transition: 0.8s;
+}
+
+.card{
+    width: 850px;
+    height: 400px;
+    padding: 25px;
+    float: left;
+    background: #fff;
+    border-radius:10px ;
+
+}
+
+.card + .card{
+    margin-left: 899px;
+}
+
+#cards.move{
+    transform: translate(-1799px,0);
+}
+
+.left-side{
+    width: 420px;
+    float: left;
+}
+
+.left-side img{
+    border-radius: 15px;
+    padding: auto;
+}
+
+.right-side h1{
+    margin: 10px 0;
+}
+
+.right-side{
+    width: 380px;
+    float: right;
+    text-align: center;
+}
+
+.card input{
+    width: 340px;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn{
+    cursor: pointer;
+    width: 400px;
+    height: 40px;
+    background-color: rgb(255, 251, 0);
+    box-shadow:0 6px 0 rgb(171, 173, 2) ;
+    color: rgba(0, 0, 0, 0.986);
+    line-height:45px;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: 26px;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#result_name,
+#result_msg{
+    font-weight: bold;
+}
+
+#result_msg{
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tweet{
+    background-color: rgb(255, 251, 4);
+    box-shadow:0 5px 0 rgb(153, 150, 1) ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+#retry{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#result{
+  background: rgb(0, 0, 0);
+  color: #fff;
+}
+
+#result.left-side{
+    width: 450px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+#result.right-side{
+    width: 350px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card.right-side{
+    background-color: yellow;
+}
+
+#result.img{
+    margin-top: 100px;
+}
+
+.right-side p{
+    font-size: 16px;
+}
+
+.message{
+    text-align: center;
+}
+
