@@ -63,7 +63,6 @@ check.addEventListener('click',function(){
     resultImg.children[0].src =  'imgs/' + msg.img;
     resultImgr.lastElementChild.src = 'imgs/' + msg.img_r;                            
     tweet.href = tweetUrl
-    // moveとretry⇩
     cards.className = 'move';
     });
 
@@ -73,6 +72,6 @@ check.addEventListener('click',function(){
     userName.focus();
 });
 
-// window.onload = function() {
-//     alert("キルミーベイベーが好きな人'以外'は絶対に見ないで下さい。");
-//   };
+ window.onload = function() {
+     alert("キルミーベイベーが好きな人'以外'は絶対に見ないで下さい。");
+   };
